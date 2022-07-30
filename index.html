@@ -37,14 +37,6 @@
       </div>
     </header>
 
-    <nav class="bottom-navbar">
-      <a href="#home" class="fas fa-home"></a>
-      <a href="#featured" class="fas fa-list"></a>
-      <a href="#arrivals" class="fas fa-tags"></a>
-      <a href="#reviews" class="fas fa-comments"></a>
-      <a href="#blogs" class="fas fa-blog"></a>
-    </nav>
-
     <!-- login form -->
     <div class="login-form-container">
       <div id="close-login-btn" class="fas fa-times"></div>
@@ -64,7 +56,8 @@
       </form>
     </div>
 
-    <!-- login form -->
+  <div id="home">
+
     <div class="slideshow-container">
       <div class="mySlides fade">
         <img src="https://i.ibb.co/W29xMd8/traveler-g481a8fd10-1280.jpg" style="width:100%">
@@ -87,11 +80,55 @@
       </div>
       <br>
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span>
-  <span class="dot" onclick="currentSlide(2)"></span>
-  <span class="dot" onclick="currentSlide(3)"></span>
-</div>
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+  <div id="arrivals">
+  <br>
+    <h1><center>New Arrival This Month</center></h1>
+  <br>
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="images/shirt1.jpg" alt="Long Chiffon Dress" style="width:100%">
+          <h2>Long Chiffon Brown Dress</h2>
+          <p class="price">Rp. 500.000</p>
+          <br>
+          <p><button>Add to Cart</button></p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="images/shirt2.jpg" alt="Lace-detail Satin Blouse" style="width:100%">
+          <h2>Lace-detail Satin Blouse</h2>
+          <p class="price">Rp. 479.000</p>
+          <br>
+          <p><button>Add to Cart</button></p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <img src="images/shirt3.jpg" alt="Voluminous Lyocell-blend Dress" style="width:100%">
+          <h2>Voluminous blend Dress</h2>
+          <p class="price">Rp. 525.000</p>
+          <br>
+          <p><button>Add to Cart</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+  </nav>
       
     <script src="js/script.js"></script>
   </body>
